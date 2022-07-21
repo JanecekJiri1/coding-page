@@ -1,0 +1,79 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+}
+
+.nav--middleSize img {
+  width: 65px;
+}
+
+.nav--leftSize,
+.nav--rightSize {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 0 25px;
+}
+
+.nav--leftSize h4,
+.nav--rightSize h4 {
+  padding: 0 10%;
+}
+
+.nav--leftSize p {
+  margin: 0 auto 0 5px;
+}
+
+.calenarAndflag {
+  display: flex;
+  text-align: center;
+}
+.calenarAndflag button {
+  margin-right: 5px;
+}
+
+.nav--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav--icons {
+  font-size: 28px;
+  margin: 0 5px;
+}
+
+.nav--text {
+  padding-right: 5px;
+}
+
+.nav--language {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+/* Media responsivity  */
+@media screen and (max-width: 750px) {
+  .nav--leftSize h4,
+  .nav--rightSize h4 {
+    padding: 0 5%;
+  }
+  .nav--leftSize .nav--text,
+  .nav--rightSize .nav--text {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav--leftSize h4,
+  .nav--rightSize h4 {
+    display: none;
+  }
+
+  .nav--rightSize {
+    justify-content: end;
+  }
+}
