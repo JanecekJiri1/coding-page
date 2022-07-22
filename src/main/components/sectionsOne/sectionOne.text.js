@@ -19,7 +19,7 @@ export default [
     id: 5,
     img: "./assets/black.jpeg",
     nameOf: "Anna",
-    description: "Est perspiciatis repellat Est perspiciatis repellat Est perspiciatis repellat Est perspiciatis repellat",
+    description: "Est perspiciatis repellat Est perspiciatis repellat Est perspiciatis repellat ",
     status: 1,
   },
 ];
