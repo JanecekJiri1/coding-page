@@ -80,6 +80,9 @@ header {
   }
 }
 @media screen and (max-width: 400px) {
+  .insideHeader {
+    gap: 15px;
+  }
   .header--button {
     margin-top: 10px;
     gap: 15px;
