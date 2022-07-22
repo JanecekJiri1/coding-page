@@ -46,6 +46,13 @@
   filter: brightness(125%);
 }
 
+/* global icons *********** */
+.global--icon {
+  font-size: 30px;
+  margin: 25px auto;
+  color: rgb(199, 32, 199);
+}
+
 /* global responsivity for some style */
 /* title */
 @media screen and (max-width: 500px) {

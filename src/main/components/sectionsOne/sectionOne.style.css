@@ -1,0 +1,79 @@
+/* section one on container  */
+.sectionOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 5rem 0;
+}
+
+/* section one main file offer section */
+.sectionOne--list {
+  max-width: 1200px;
+
+  margin: 15px auto;
+}
+.sectionOne--list div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Sceleton */
+
+.section--sceleton {
+  margin: 45px 15px;
+
+  padding: 25px;
+  width: 350px;
+  height: 350px;
+}
+
+.section--sceleton img {
+  width: 250px;
+}
+
+.sectionOne--sceleton--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.sectionOne--sceleton--text h2 {
+  margin-top: 10px;
+}
+.sectionOne--sceleton--text p {
+  width: 20em;
+}
+.sectionOne--sceleton--text h4 {
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+/* status */
+.status--taken {
+  display: flex;
+  margin-left: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: red;
+}
+
+.available {
+  color: green;
+}
+
+/* media responsiv  */
+@media screen and (max-width: 400px) {
+  .section--sceleton {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 270px;
+  }
+  .sectionOne--sceleton--text p {
+    padding: 0 5px;
+    white-space: nowrap;
+  }
+}
