@@ -71,8 +71,7 @@
     padding: 15px;
     width: 270px;
   }
-  .sectionOne--sceleton--text p {
+  .sectionOne--sceleton--text {
     padding: 0 5px;
-    white-space: nowrap;
   }
 }
