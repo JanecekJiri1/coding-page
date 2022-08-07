@@ -1,26 +1,30 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { FaFacebook, FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { useClickOutside } from "../../../hooks/useClickOutside";
 import "./menu.style.css";
+import navImg from "../../../../assets/logo.png";
 
 function Menu(props) {
-  // const [showMenu, setShowMenu] = useState(false);
+  const menuRef = useRef(null);
 
-  // const menuRef = useRef(null);
-
-  // useClickOutside(menuRef, () => setShowMenu(false));
-  // onClick={() => setShowMenu(!showMenu)}
+  useClickOutside(menuRef, () => props.setShowMenu(false));
 
   return (
     <div className="nav--menu">
-      <div className="inside--menu">
+      <div className="inside--menu" ref={menuRef}>
         <div className="menu--header">
-          <div className="menu--header--icon" onClick={props.onClick}>
-            <AiOutlineClose />
+          <div className="menu--header--icon" onClick={() => props.setShowMenu(false)}>
+            <AiOutlineClose className="menu--header--icon--cros" />
+
             <p> menu</p>
           </div>
-          <div className="menu--header--logo">text</div>
+          <div className="menu--header--logo">
+            <h2>
+              Love is <br /> click away
+            </h2>
+            <img src={navImg} alt="" />
+          </div>
         </div>
         <div className="menu--body">
           <div className="menu--body--left">

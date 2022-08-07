@@ -1,9 +1,12 @@
 .nav--menu {
-  position: absolute;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.9);
   top: 0;
-  width: 100%;
-  height: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-height: 100vh;
+  z-index: 99999;
 }
 
 .inside--menu {
@@ -25,6 +28,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* left size */
+.menu--header--icon {
+  position: absolute;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  left: 10px;
+}
+.menu--header--icon--cros {
+  font-size: 35px;
+}
+
+/* right size */
+.menu--header--logo {
+  display: flex;
+  align-items: center;
+}
+.menu--header--logo img {
+  width: 55px;
+}
+.menu--header--logo img {
+  width: 55px;
 }
 
 /* body************* */

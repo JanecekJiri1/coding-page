@@ -1,0 +1,5 @@
+.sectionThree {
+  min-height: 800px;
+  background: rgba(0, 46, 59, 0.9) url("../../../assets/jerusalem.webp");
+  background-blend-mode: darken;
+}

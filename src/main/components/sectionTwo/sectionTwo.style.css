@@ -1,0 +1,31 @@
+.sectionTwo {
+  min-height: 800px;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+  position: absolute;
+}
+.sectionTwo--text {
+  background-color: rgba(255, 255, 255, 0.336);
+  width: 100%;
+  z-index: 1000;
+}
+.sectionTwo h2 {
+  z-index: 1000;
+  margin: 5px 0;
+}
+.sectionTwo h3 {
+  z-index: 1000;
+  margin: 5px 0;
+}
