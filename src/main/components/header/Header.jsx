@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import "./header.style.css";
 import Navigation from "../navigation/Navigation";
 import CarousalApp from "./swipeSlider/CarousalApp";
 import HeaderFooter from "./swipeSlider/HeaderFooter";
+import Menu from "../navigation/menu/Menu";
+import { useClickOutside } from "../../hooks/useClickOutside";
 
 function Header(props) {
+  const [showMenu, setShowMenu] = useState(true);
+
   return (
     <header>
-      <Navigation />
+      {showMenu && <Menu setShowMenu={setShowMenu} />}
+
+      <Navigation setShowMenu={setShowMenu} />
       <div className="insideHeader">
         <h1 className="click-away--title">
           Love is <br /> one click away

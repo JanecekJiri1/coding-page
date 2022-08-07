@@ -10,7 +10,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   min-height: 600px;
-  height: 800px;
+  height: 100vh;
   color: white;
 }
 

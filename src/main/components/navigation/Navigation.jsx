@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Menu from "./menu/Menu";
+import React from "react";
 import "./navigation.style.css";
 
 // img and icons
@@ -8,18 +7,11 @@ import { HiMenuAlt2 } from "react-icons/hi";
 import { BiCalendarCheck } from "react-icons/bi";
 
 function Navigation(props) {
-  const [showMenu, setShowMenu] = useState(false);
-
-  function closeMenuHandler() {
-    setShowMenu(false);
-  }
   return (
     <nav>
-      {showMenu && <Menu onClick={closeMenuHandler} />}
       <div className="nav--leftSize">
-        <button className="nav--button">
-          <HiMenuAlt2 className="nav--icons" onClick={() => setShowMenu(!showMenu)} />
-        </button>
+        <HiMenuAlt2 className="nav--icons" onClick={() => props.setShowMenu(true)} />
+
         <p className="nav--text">MENU</p>
         <h4>+420 123 234 345</h4>
       </div>
