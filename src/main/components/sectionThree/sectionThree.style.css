@@ -1,5 +1,83 @@
 .sectionThree {
-  min-height: 800px;
+  min-height: 1000px;
   background: rgba(0, 46, 59, 0.9) url("../../../assets/jerusalem.webp");
   background-blend-mode: darken;
+  color: white;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sectionThree-title {
+  margin: 2rem 0;
+}
+
+/* .sectionThree--concept {
+  display: flex;
+  flex-direction: column;
+} */
+.sectionThree--concept--top {
+  width: 500px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  margin: 4.5rem auto 0 auto;
+}
+
+.sectionThree--concept--top li {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.sectionThree--concept--top li:hover {
+  border: 1px solid black;
+  color: black;
+  background-color: rgb(199, 32, 199);
+}
+
+.sectionThree--concept--boxs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin: 4.5rem;
+}
+
+.sectionThree--box {
+  background-color: rgb(164, 155, 155);
+  border: 1px solid black;
+  color: rgba(0, 46, 59, 0.9);
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem 1.25rem;
+  padding: 35px 25px 45px;
+  cursor: pointer;
+}
+.sectionThree--box:hover {
+  filter: brightness(125%);
+}
+.sectionThree--box p {
+  margin-top: 10px;
+}
+
+/* ***** bottom text *********** */
+
+.sectionThree--concept--text {
+  font-size: 18px;
+  color: rgb(164, 155, 155);
 }

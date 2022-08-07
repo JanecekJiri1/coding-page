@@ -10,9 +10,11 @@ function Navigation(props) {
   return (
     <nav>
       <div className="nav--leftSize">
-        <HiMenuAlt2 className="nav--icons" onClick={() => props.setShowMenu(true)} />
+        <span className="nav--leftSize--menuClick" onClick={() => props.setShowMenu(true)}>
+          <HiMenuAlt2 className="nav--icons" />
 
-        <p className="nav--text">MENU</p>
+          <p className="nav--text">MENU</p>
+        </span>
         <h4>+420 123 234 345</h4>
       </div>
       <div className="nav--middleSize">

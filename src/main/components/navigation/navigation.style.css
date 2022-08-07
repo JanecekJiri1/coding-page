@@ -27,6 +27,12 @@ nav {
   margin: 0 auto 0 5px;
 }
 
+.nav--leftSize--menuClick {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
 .calenarAndflag {
   display: flex;
   text-align: center;

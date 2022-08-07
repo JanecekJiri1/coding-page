@@ -7,7 +7,7 @@ import Menu from "../navigation/menu/Menu";
 import { useClickOutside } from "../../hooks/useClickOutside";
 
 function Header(props) {
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <header>
