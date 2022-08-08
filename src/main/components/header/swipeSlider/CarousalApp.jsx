@@ -1,6 +1,5 @@
 // import "./App.css";
 import Carousel from "./carousel/Carousel";
-import HeaderFooter from "./HeaderFooter";
 
 // import img1 from "./assets/1.jpg";
 // import img2 from "./assets/2.jpg";
