@@ -4,7 +4,7 @@ import "./sectionThree.style.css";
 
 function SectionThree(props) {
   return (
-    <div className="sectionThree">
+    <div className="sectionThree" id="section3">
       <h2 className="click-away--title sectionThree-title">Aktuální nabídka</h2>
       {/* <div className="sectionThree--concept"> */}
       <SectionThreeBoxs />

@@ -2,7 +2,7 @@
 
 .slideNavigation {
   z-index: 100;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgb(0, 0, 0);
   width: 100%;
   height: 65px;
   display: flex;
@@ -10,22 +10,25 @@
   justify-content: center;
   border: 1px solid rgba(0, 0, 0, 0);
   color: white;
-
   position: sticky;
   top: 0;
   bottom: 0;
 }
 
-.slideNavigation div {
+.slideNavigation a {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 65px;
   width: 100%;
   border: 1px solid rgb(101, 101, 101);
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
 }
 
-.slideNavigation div:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+.slideNavigation a:hover {
+  background-color: rgb(25, 25, 25);
+  text-decoration: underline;
   cursor: pointer;
 }

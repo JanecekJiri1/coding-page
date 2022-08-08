@@ -9,10 +9,9 @@ import { useClickOutside } from "../../hooks/useClickOutside";
 
 function Header(props) {
   const [showMenu, setShowMenu] = useState(false);
-  const [fix, setFix] = useState(false);
 
   return (
-    <header>
+    <header id="header">
       {showMenu && <Menu setShowMenu={setShowMenu} />}
 
       <Navigation setShowMenu={setShowMenu} />
