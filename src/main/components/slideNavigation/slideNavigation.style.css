@@ -32,3 +32,34 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+/* responsiv move on touch */
+@media screen and (max-width: 450px) {
+  .slideNavigation {
+    display: none;
+  }
+  .holster {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+  }
+
+  .slideNavigation-mobile {
+    display: flex;
+    overflow: auto;
+    flex: none;
+    scroll-snap-type: x mandatory;
+  }
+
+  .slideNavigation-mobile > a {
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+  }
+}

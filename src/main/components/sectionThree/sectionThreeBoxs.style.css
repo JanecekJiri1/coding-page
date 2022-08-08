@@ -95,3 +95,19 @@
   padding: 5px 5px 10px;
   font-size: 17px;
 }
+
+@media screen and (max-width: 500px) {
+  .sectionThree--box {
+    margin: 0.5rem 0;
+  }
+  .sectionThree--concept--top {
+    width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+  .active {
+    margin: 1rem 0rem;
+  }
+}

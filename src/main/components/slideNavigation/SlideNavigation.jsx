@@ -4,7 +4,7 @@ import "./slideNavigation.style.css";
 function SlideNavigation(props) {
   return (
     <>
-      <div className="slideNavigation">
+      <div className="slideNavigation slideNavigation-mobile">
         <a href="#header">Nahoru</a>
 
         <a href="#section1">Section 1</a>
