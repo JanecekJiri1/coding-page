@@ -9,7 +9,7 @@ function SectionFour(props) {
       <h2 className="click-away--title ">V čem všem si můžete rozumět</h2>
       <AiOutlineWoman className="global--icon" />
       <p>Lorem ipsum dolor sit amet adipisicing elit.</p>
-      <div className="sectionFour--Slider">{/* <SectionFourSlider /> */}</div>
+      <div className="sectionFour--Slider">{/* <SectionFourSlider />git a */}</div>
     </div>
   );
 }

@@ -3,18 +3,19 @@ import "./navigation.style.css";
 
 // img and icons
 import navImg from "../../../assets/logo.png";
-import { HiMenuAlt2 } from "react-icons/hi";
+// import { HiMenuAlt2 } from "react-icons/hi";
 import { BiCalendarCheck } from "react-icons/bi";
 
 function Navigation(props) {
   return (
     <nav>
       <div className="nav--leftSize">
-        <span className="nav--leftSize--menuClick" onClick={() => props.setShowMenu(true)}>
-          <HiMenuAlt2 className="nav--icons" />
+        {/* <span className="nav--leftSize--menuClick" onClick={() => props.setShowMenu(true)}> */}
+        {/* <HiMenuAlt2 className="nav--icons" /> */}
 
-          <p className="nav--text">MENU</p>
-        </span>
+        {/* <p className="nav--text">MENU</p> */}
+        {/* </span> */}
+        <h4>One Click</h4>
         <h4>+420 123 234 345</h4>
       </div>
       <div className="nav--middleSize">
