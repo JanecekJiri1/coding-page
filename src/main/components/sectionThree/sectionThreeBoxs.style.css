@@ -33,7 +33,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   margin: 4.5rem;
 }
 
@@ -46,6 +45,7 @@
   perspective: 1000px;
 }
 
+/* BOX FLIP */
 .sectionThree--box--inner {
   position: relative;
   width: 100%;
@@ -105,9 +105,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px;
+    gap: 0px;
   }
   .active {
     margin: 1rem 0rem;
+  }
+  .sectionThree--box--back h3 {
+    font-size: 24px;
+  }
+
+  .sectionThree--box p {
+    padding: 2px 5px 5px;
+    font-size: 16px;
   }
 }

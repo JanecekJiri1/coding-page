@@ -1,11 +1,7 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./header.style.css";
 import Navigation from "../navigation/Navigation";
-import SlideNavigation from "../slideNavigation/SlideNavigation";
-// import CarousalApp from "./swipeSlider/CarousalApp";
-import HeaderFooter from "./swipeSlider/HeaderFooter";
 import Menu from "../navigation/menu/Menu";
-import { useClickOutside } from "../../hooks/useClickOutside";
 
 function Header(props) {
   const [showMenu, setShowMenu] = useState(false);
@@ -28,11 +24,6 @@ function Header(props) {
           <button className="click-away--button">Více informací</button>
           <button className="click-away--button black--button">Ceník</button>
         </div>
-        {/* <div style={{ width: "100%" }}> */}
-        {/* <SlideNavigation /> */}
-        {/* <HeaderFooter /> */}
-        {/* <CarousalApp /> */}
-        {/* </div> */}
       </div>
     </header>
   );
