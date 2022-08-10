@@ -2,10 +2,14 @@ import React, { useState } from "react";
 import "./header.style.css";
 import Navigation from "../navigation/Navigation";
 
+import Menu from "../navigation/menu/Menu";
+
 function Header(props) {
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <header id="header">
-      <Navigation />
+      {showMenu && <Menu setShowMenu={setShowMenu} />}
+      <Navigation setShowMenu={setShowMenu} />
       <div className="insideHeader">
         <h1 className="click-away--title">
           Love is <br /> one click away
