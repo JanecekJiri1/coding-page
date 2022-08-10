@@ -1,5 +1,5 @@
 header {
-  background: rgba(24, 24, 24, 0.6) url(../../../assets/forest.webp);
+  background: rgba(24, 24, 24, 0.25) url(../../../assets/forest.webp);
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
