@@ -43,7 +43,7 @@
   .slideNavigation {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
-    width: 100%;
+    width: 50%;
   }
 
   .slideNavigation > a {

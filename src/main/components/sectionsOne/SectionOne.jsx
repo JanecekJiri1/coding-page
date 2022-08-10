@@ -6,7 +6,7 @@ import SectionOneSceleton from "./SectionOneSceleton";
 
 function SectionOne(props) {
   const offerList = sectionOneText.map((text) => {
-    return <SectionOneSceleton nameOf={text.nameOf} description={text.description} status={text.status} img={text.img} />;
+    return <SectionOneSceleton key={text.id} nameOf={text.nameOf} description={text.description} status={text.status} img={text.img} />;
   });
   return (
     <section id="section1">
