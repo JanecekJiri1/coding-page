@@ -1,8 +1,8 @@
 header {
-  background: rgba(24, 24, 24, 0.5) url(../../../assets/images.jpg);
+  background: rgba(24, 24, 24, 0.6) url(../../../assets/forest.webp);
   background-blend-mode: darken;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
 

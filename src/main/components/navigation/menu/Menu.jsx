@@ -48,8 +48,8 @@ function Menu(props) {
           </div>
         </div>
         <div className="menu--footer">
-          <div className="menu--footer--social--icons">
-            <a href="/">
+          {/* <div className="menu--footer--social--icons"> */}
+          {/* <a href="/">
               <FaFacebook />
             </a>
             <a href="/">
@@ -61,7 +61,8 @@ function Menu(props) {
             <a href="/">
               <FaYoutube />
             </a>
-          </div>
+          </div> */}
+
           <div className="menu--footer--contact">
             <h3>telefon</h3>
             <h3>email</h3>
