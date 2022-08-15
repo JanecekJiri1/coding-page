@@ -1,7 +1,8 @@
 import React from "react";
 import "./sectionFour.style.css";
 import { AiOutlineWoman } from "react-icons/ai";
-import SectionFourSlider from "./slider/SectionFourSlider";
+
+import AppCarousel from "./carousel/AppCarousel";
 
 function SectionFour(props) {
   return (
@@ -9,7 +10,9 @@ function SectionFour(props) {
       <h2 className="click-away--title ">V čem všem si můžete rozumět</h2>
       <AiOutlineWoman className="global--icon" />
       <p>Lorem ipsum dolor sit amet adipisicing elit.</p>
-      <div className="sectionFour--Slider">{/* <SectionFourSlider />git a */}</div>
+      <div className="sectionFour--Slider">
+        <AppCarousel />
+      </div>
     </div>
   );
 }

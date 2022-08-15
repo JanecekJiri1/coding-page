@@ -1,0 +1,16 @@
+.container-carousal {
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.AppCarousel {
+  text-align: center;
+}
+
+.carousel-img {
+  width: 30%;
+  height: 600px;
+}
