@@ -6,6 +6,7 @@ import SectionOne from "./components/sectionsOne/SectionOne";
 import SectionTwo from "./components/sectionTwo/SectionTwo";
 import SectionThree from "./components/sectionThree/SectionThree";
 import SectionFour from "./components/sectionFour/SectionFour";
+import SectionFive from "./components/sectionFive/SectionFive";
 
 function Main(props) {
   return (
@@ -16,6 +17,7 @@ function Main(props) {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
+      <SectionFive />
     </>
   );
 }
