@@ -1,0 +1,10 @@
+.sectionFive--carousel--img--container img {
+  width: 100%;
+  height: 500px;
+}
+
+/* .carousel-indicator-item  */
+.sectionFive .carousel-indicator-item {
+  position: relative;
+  bottom: 2.5rem;
+}

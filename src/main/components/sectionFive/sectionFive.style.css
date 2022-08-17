@@ -1,0 +1,12 @@
+.sectionFive {
+  margin: 2.5rem 0 1.5rem;
+}
+.sectionFive h2 {
+  margin: 1.5rem 0 2.5rem;
+}
+.sectionFive p {
+  margin: 3.5rem 0;
+}
+.sectionFive .click-away--button {
+  width: 250px;
+}

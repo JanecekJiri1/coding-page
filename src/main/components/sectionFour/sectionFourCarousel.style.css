@@ -1,0 +1,60 @@
+.container-carousal {
+  min-height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.sectionFour {
+  min-height: 250px;
+  /* margin-top: 55px;
+  margin-bottom: 55px; */
+}
+
+.AppCarousel {
+  text-align: center;
+}
+
+.imgSectionFour {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  padding-right: 14px;
+}
+
+.carousel--img {
+  width: 25%;
+}
+
+/* .carousel-indicator-item  */
+
+.sectionFour .carousel-indicator-item {
+  background: rgb(27, 1, 27);
+  border-radius: 360%;
+  position: relative;
+  top: 30px;
+}
+
+.sectionFour .carousel-control {
+  display: none;
+}
+
+@media screen and (max-width: 505px) {
+  .sectionFour .carousel-control {
+    display: inline-block;
+  }
+
+  .imgSectionFour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .carousel--img {
+    width: 65%;
+  }
+}

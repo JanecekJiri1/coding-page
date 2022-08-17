@@ -2,7 +2,7 @@ import React from "react";
 import "./sectionFour.style.css";
 import { AiOutlineWoman } from "react-icons/ai";
 
-import AppCarousel from "./carousel/AppCarousel";
+import SectionFourCarousel from "./SectionFourCarousel";
 
 function SectionFour(props) {
   return (
@@ -10,8 +10,8 @@ function SectionFour(props) {
       <h2 className="click-away--title ">V čem všem si můžete rozumět</h2>
       <AiOutlineWoman className="global--icon" />
       <p>Lorem ipsum dolor sit amet adipisicing elit.</p>
-      <div className="sectionFour--Slider">
-        <AppCarousel />
+      <div className="sectionFour--Carousel">
+        <SectionFourCarousel />
       </div>
     </div>
   );

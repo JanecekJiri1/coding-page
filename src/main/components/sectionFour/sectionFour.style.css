@@ -1,0 +1,13 @@
+.SectionFour {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5rem 0.5rem;
+}
+
+.SectionFour h2 {
+  margin: 1.5rem 0 2.5rem;
+}
+.SectionFour p {
+  margin: 1rem 0 2.5rem;
+}
