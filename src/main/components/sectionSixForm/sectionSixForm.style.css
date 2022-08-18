@@ -1,0 +1,185 @@
+.sectionSixForm {
+  margin-top: 8rem;
+  padding: 4rem 0 0;
+  background-color: rgb(199, 32, 199);
+}
+
+/* Text at top address kontakt */
+
+.sectionSixForm--text--address {
+  margin: 25px;
+}
+.sectionSixForm--text--address p:nth-child(5) {
+  margin: 25px 0;
+}
+
+/* Form with inputs */
+.sectionSixForm--form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sectionSixForm--inputs {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  width: 100%;
+}
+
+.sectionSixForm--inputs input {
+  margin: 15px 0;
+  padding: 10px 5px;
+  border: none;
+  outline: none;
+}
+
+.sectionFour--input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionFour--input input {
+  width: 100%;
+}
+
+.input--icon {
+  background-color: white;
+  padding: 5px;
+  height: 36px;
+  width: 36px;
+}
+
+/* left */
+.sectionSixForm--inputLeft {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.sectionSixForm--inputRight {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionSixForm--inputRightDouble {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.sectionSixForm--inputRightDouble input {
+  width: 100%;
+}
+
+/* right double button */
+.sectionSixForm--inputRightDouble {
+  width: 100%;
+}
+.sectionSixForm--inputRightDouble--value {
+  width: 100%;
+}
+.sectionSixForm--inputRightDouble--variant {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+/* date button */
+::-webkit-calendar-picker-indicator {
+  font-size: 26px;
+  padding: 0;
+}
+
+/* bottom */
+
+.sectionSixForm--bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.sectionSixForm--bottom textarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(80% + 25px);
+  margin: 15px 0;
+  padding: 10px;
+  outline: none;
+  border: none;
+
+  resize: none;
+}
+.sectionSixForm--bottom button {
+  margin: 35px 0 75px;
+}
+
+/* Map and subscribe section */
+.sectionSix--bottom--inputAndButton {
+  display: flex;
+  align-items: center;
+}
+.sectionSix--bottom--inputAndButton button {
+  height: 40px;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.sectionSix--bottom--inputAndButton input {
+  height: 40px;
+  width: 500px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+}
+.sectionSix--mapAndSub {
+  background-color: white;
+}
+.sectionSix--bottom--subscribe {
+  min-height: 120px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 5px;
+}
+
+.sectionSix--bottom--subscribe p {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sectionSix--bottom--inputAndButton .input--icon {
+  height: 40px;
+}
+
+.sectionSix--bottom--input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Media query */
+
+@media screen and (max-width: 600px) {
+  .sectionSix--bottom--subscribe {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .sectionSix--bottom--inputAndButton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .sectionSix--bottom--inputAndButton input {
+    width: 250px;
+  }
+  .sectionSix--bottom--input {
+    margin-bottom: 5px;
+  }
+}

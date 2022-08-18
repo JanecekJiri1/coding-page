@@ -7,6 +7,7 @@ import SectionTwo from "./components/sectionTwo/SectionTwo";
 import SectionThree from "./components/sectionThree/SectionThree";
 import SectionFour from "./components/sectionFour/SectionFour";
 import SectionFive from "./components/sectionFive/SectionFive";
+import SectionSixForm from "./components/sectionSixForm/SectionSixForm";
 
 function Main(props) {
   return (
@@ -18,6 +19,7 @@ function Main(props) {
       <SectionThree />
       <SectionFour />
       <SectionFive />
+      <SectionSixForm />
     </>
   );
 }
