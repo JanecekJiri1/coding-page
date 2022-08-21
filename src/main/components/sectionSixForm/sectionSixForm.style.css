@@ -152,6 +152,9 @@
 
 .sectionSix--bottom--inputAndButton .input--icon {
   height: 40px;
+  width: 40px;
+
+  padding-left: 7px;
 }
 
 .sectionSix--bottom--input {

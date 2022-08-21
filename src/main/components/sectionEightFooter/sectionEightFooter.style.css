@@ -1,0 +1,119 @@
+footer {
+  background-color: black;
+  color: white;
+  padding: 5px 45px 55px;
+  background-image: url("../../../assets/unnamed.png");
+  background-blend-mode: lighten;
+  filter: brightness(85%);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.footer--top {
+  margin: 55px 0;
+  padding: 0 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social--icon {
+  display: flex;
+  align-items: center;
+  margin: 0 auto 0 0;
+}
+.social--icon > * {
+  background-color: rgb(199, 32, 199);
+  color: black;
+  width: 45px;
+  height: 45px;
+  padding: 4px;
+  margin: 5px;
+}
+
+.footer--top img {
+  width: 95px;
+}
+.footer--top--button {
+  display: flex;
+  justify-content: end;
+  width: 220px;
+  margin: 0 0 0 auto;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middleStar {
+  color: rgb(199, 32, 199);
+  display: flex;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  margin: 0 35px;
+}
+
+.leftLine,
+.rightLine {
+  width: 95%;
+  height: 0;
+  border-top: 1px solid rgb(199, 32, 199);
+}
+
+.line p {
+  color: rgb(199, 32, 199);
+  font-weight: normal;
+  font-size: 18px;
+  margin: 25px;
+  white-space: nowrap;
+}
+
+/* contact */
+.footer--contact {
+  margin: 45px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer--contact .click-away--Titleh2 {
+  font-weight: normal;
+}
+
+/* next */
+.footer--addInformation {
+  display: flex;
+  justify-content: space-around;
+  font-weight: normal;
+  margin: 45px 0;
+  line-height: 1.5;
+}
+.footer--addInformation h5 {
+  font-weight: normal;
+}
+
+.footer--addInformation ul {
+  color: rgb(199, 32, 199);
+  list-style: none;
+  font-size: 18px;
+  text-align: start;
+}
+
+/* next project */
+.footer--nextProject {
+  display: flex;
+  justify-content: space-around;
+  margin: 45px 0 55px;
+}
+/* signed */
+.footerSign {
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgb(199, 32, 199);
+  margin: 45px 0;
+}
