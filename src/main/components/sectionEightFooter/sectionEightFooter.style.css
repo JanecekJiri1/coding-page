@@ -22,6 +22,8 @@ footer {
   display: flex;
   align-items: center;
   margin: 0 auto 0 0;
+  flex-wrap: wrap;
+  min-width: 140px;
 }
 .social--icon > * {
   background-color: rgb(199, 32, 199);
@@ -116,4 +118,37 @@ footer {
   font-size: 16px;
   color: rgb(199, 32, 199);
   margin: 45px 0;
+}
+
+@media screen and (max-width: 650px) {
+  footer {
+    padding: 5px 10px 55px;
+  }
+
+  .footer--top {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer--top--button,
+  .social--icon {
+    display: flex;
+    justify-content: center;
+
+    margin: 25px 0;
+  }
+
+  .social--icon {
+    order: 3;
+  }
+
+  .footer--contact {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    gap: 15px;
+  }
 }
