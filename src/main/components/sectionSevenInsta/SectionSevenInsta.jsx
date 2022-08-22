@@ -3,7 +3,7 @@ import "./sectionSevenInsta.style.css";
 
 function SectionSevenInsta(props) {
   return (
-    <div className="sectionSevenInsta">
+    <div className="sectionSevenInsta" id="instagram">
       <h2 className="click-away--title">Můžete nás najít na instagramu</h2>
       <h2 className="click-away--title">@jiri.janecek1</h2>
       <div></div>

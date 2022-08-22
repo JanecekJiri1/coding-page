@@ -26,14 +26,9 @@ function Menu(props) {
             <img src={navImg} alt="" />
           </div>
         </div>
+        <h3>Další projekty</h3>
         <div className="menu--body">
           <div className="menu--body--left">
-            <a href="/">Activity</a>
-            <a href="/">Activity</a>
-            <a href="/">Activity</a>
-            <a href="/">Activity</a>
-            <a href="/">Activity</a>
-            <a href="/">Activity</a>
             <a href="/">Activity</a>
             <a href="/">Activity</a>
             <a href="/">Activity</a>

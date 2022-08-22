@@ -19,7 +19,7 @@ function SectionSixForm(props) {
   );
 
   return (
-    <div className="sectionSixForm">
+    <div className="sectionSixForm" id="form">
       <div className="sectionSixForm--text">
         <h2 className="click-away--title">Kontakt</h2>
         <div className="sectionSixForm--text--address">

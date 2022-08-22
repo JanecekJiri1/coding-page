@@ -6,7 +6,7 @@ import SectionFourCarousel from "./SectionFourCarousel";
 
 function SectionFour(props) {
   return (
-    <div className="SectionFour">
+    <div className="SectionFour" id="photo">
       <h2 className="click-away--title ">V čem všem si můžete rozumět</h2>
       <AiOutlineWoman className="global--icon" />
       <p>Lorem ipsum dolor sit amet adipisicing elit.</p>

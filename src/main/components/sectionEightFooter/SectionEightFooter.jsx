@@ -7,7 +7,7 @@ import { AiOutlineStar } from "react-icons/ai";
 
 function SectionEightFooter(props) {
   return (
-    <div>
+    <div id="footer">
       <h2>
         <footer>
           <div className="footer--top">

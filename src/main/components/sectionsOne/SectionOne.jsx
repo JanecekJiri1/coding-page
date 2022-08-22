@@ -9,7 +9,7 @@ function SectionOne(props) {
     return <SectionOneSceleton key={text.id} nameOf={text.nameOf} description={text.description} status={text.status} img={text.img} />;
   });
   return (
-    <section id="section1">
+    <section id="ourOffer">
       <div className="sectionOne">
         <h1 className="click-away--title">Our offer</h1>
         <div className="textAndIcons">
