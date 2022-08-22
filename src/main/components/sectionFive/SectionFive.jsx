@@ -5,7 +5,7 @@ import SectionFiveCarousel from "./SectionFiveCarousel";
 
 function SectionFour(props) {
   return (
-    <div className="sectionFive">
+    <div className="sectionFive" id="gallery">
       <h2 className="click-away--title ">K nezapomenuti</h2>
 
       <p>
