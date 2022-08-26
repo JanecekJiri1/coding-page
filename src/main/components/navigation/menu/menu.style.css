@@ -11,7 +11,7 @@
 
 .inside--menu {
   position: relative;
-  background-color: rgb(199, 32, 199);
+  background-color: rgba(199, 32, 199, 0.85);
   width: 50%;
   height: 100vh;
 }
@@ -20,7 +20,6 @@
 .menu--header {
   min-height: 10%;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -30,28 +29,13 @@
   align-items: center;
 }
 
-/* left size */
+/* left size cros */
 .menu--header--icon {
   position: absolute;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   left: 10px;
 }
 .menu--header--icon--cros {
   font-size: 35px;
-}
-
-/* right size */
-.menu--header--logo {
-  display: flex;
-  align-items: center;
-}
-.menu--header--logo img {
-  width: 55px;
-}
-.menu--header--logo img {
-  width: 55px;
 }
 
 /* body************* */
@@ -80,40 +64,31 @@
   display: flex;
   flex-direction: column;
   justify-content: start;
-  gap: 15px;
   align-items: start;
+  line-height: 45px;
+  text-align: start;
   border-right: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+.menu--body--left h4:hover {
+  text-decoration: underline;
 }
 .menu--body--right {
-  padding: 85px 0 0 45px;
+  padding: 25px 0 0 15px;
   width: 50%;
   height: 100%;
   font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: start;
+}
+
+.menu--right--show {
   display: flex;
   flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  gap: 25px;
-}
-
-/* .menu--portfolio,
-.menu--wine,
-.menu--food {
-  display: none;
-} */
-
-.menu--portfolio {
-  /* display: inline; */
-  color: black;
-}
-
-.menu--portfilio--hover:hover ~ div .menu--portfolio {
-}
-
-.menu--body--right .menu--wine p {
-}
-.menu--portfilio--hover:hover ~ .menu--body--right .menu--wine {
-  display: none;
+  line-height: 35px;
+  text-align: start;
 }
 
 /* menu footer */
@@ -144,6 +119,18 @@
   height: 45px;
   flex-wrap: nowrap;
   font-size: 45px;
+  background-color: none;
+}
+.menu--footer--social--icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: rgb(199, 32, 199);
+  width: 45px;
+  height: 45px;
+  font-size: 40px;
+  margin: 5px;
 }
 
 /* media query */

@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import { FaFacebook, FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { useClickOutside } from "../../../hooks/useClickOutside";
 import "./menu.style.css";
@@ -9,24 +9,7 @@ function Menu(props) {
 
   useClickOutside(menuRef, () => props.setShowMenu(false));
 
-  const [portfolio, setPortfolio] = useState(false);
-  const [wine, setWine] = useState(false);
-  const [foodOrder, setfoodOrder] = useState(false);
-  const portfolioHandler = () => {
-    setPortfolio(true);
-    setWine(false);
-    setfoodOrder(false);
-  };
-  const wineHandler = () => {
-    setPortfolio(false);
-    setWine(true);
-    setfoodOrder(false);
-  };
-  const foodOrderHandler = () => {
-    setPortfolio(false);
-    setWine(false);
-    setfoodOrder(true);
-  };
+  const [menuItem, setMenuItem] = useState("");
 
   return (
     <div className="nav--menu">
@@ -43,71 +26,75 @@ function Menu(props) {
           <div className="menu--body--left">
             <div>
               <div className="menu--portfolio">
-                <h4 onClick={portfolioHandler}>Portfolio</h4>
-                <h4 onClick={wineHandler}>Vinařství</h4>
-                <h4 onClick={foodOrderHandler}>Food order</h4>
+                <h4 onClick={() => setMenuItem("portfolio")}>Portfolio</h4>
+                <h4 onClick={() => setMenuItem("wineMenu")}>Vinařství</h4>
+                <h4 onClick={() => setMenuItem("foodMenu")}>Food order</h4>
               </div>
             </div>
           </div>
 
           <div className="menu--body--right">
-            {portfolio && (
-              <div className="menu--portfolio">
-                <a href="/">
-                  <p>Main page</p>
+            {menuItem === "portfolio" && (
+              <div className="menu--right--show">
+                <a href="https://my-new-portfolio-rebuild.herokuapp.com/" target="_blank">
+                  {" "}
+                  Main page{" "}
                 </a>
-                <a href="/">About</a>
-                <a href="/">Projects</a>
-                <a href="/">contact</a>
+                <a href="https://my-new-portfolio-rebuild.herokuapp.com/projects" target="_blank">
+                  Projects
+                </a>
+                <a href="https://my-new-portfolio-rebuild.herokuapp.com/contact" target="_blank">
+                  contact
+                </a>
               </div>
             )}
-            {wine && (
-              <div className="menu--wine">
-                <a href="/">
+
+            {menuItem === "wineMenu" && (
+              <div className="menu--right--show">
+                <a href="https://wine-vajcner.herokuapp.com/" target="_blank">
                   <p>Main page</p>
                 </a>
-                <a href="/">
-                  <p>Out wine</p>
+                <a href="https://wine-vajcner.herokuapp.com/Wine" target="_blank">
+                  <p>Our wine</p>
                 </a>
-                <a href="/">
+                <a href="https://wine-vajcner.herokuapp.com/About" target="_blank">
                   <p>About us</p>
                 </a>
-                <a href="/">
+                <a href="https://wine-vajcner.herokuapp.com/Contact" target="_blank">
                   <p> contact</p>
                 </a>
               </div>
             )}
 
-            {foodOrder && (
-              <div className="menu--food">
-                <a href="/">
+            {menuItem === "foodMenu" && (
+              <div className="menu--right--show">
+                <a href="https://food-order-portfolio.herokuapp.com/" target="_blank">
                   <p>Main page</p>
                 </a>
               </div>
             )}
           </div>
         </div>
-      </div>
 
-      <div className="menu--footer">
-        <div className="menu--footer--social--icons social--icon">
-          <a href="/">
-            <FaFacebook />
-          </a>
-          <a href="/">
-            <FaInstagram />
-          </a>
-          <a href="/">
-            <FaLinkedin />
-          </a>
-          <a href="/">
-            <FaYoutube />
-          </a>
-        </div>
-
-        <div className="menu--footer--contact">
-          <h3>+420 703 503 660</h3>
-          <h3>janec.jiri@email.cz</h3>
+        <div className="menu--footer">
+          <div className="menu--footer--social--icons ">
+            <a href="https://www.facebook.com/jiri.janecek.712" target="_blank">
+              <FaFacebookF />
+            </a>
+            <a href="https://www.instagram.com/jirka.janecek1/" target="_blank">
+              <FaInstagram />
+            </a>
+            <a href="https://www.linkedin.com/in/jirijanecek01/" target="_blank">
+              <FaLinkedinIn />
+            </a>
+            <a href="https://www.youtube.com/channel/UC4RzynFtynvafmysAaYA9Gw" target="_blank">
+              <FaYoutube />
+            </a>
+          </div>
+          <div className="menu--footer--contact">
+            <h3>+420 703 503 660</h3>
+            <h3>janec.jiri@email.cz</h3>
+          </div>{" "}
         </div>
       </div>
     </div>

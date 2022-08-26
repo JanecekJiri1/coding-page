@@ -6,7 +6,7 @@ function SlideNavigation(props) {
   return (
     <>
       <div className="slideNavigation ">
-        <Link to="header" activeClass="none" spy={true} smooth={true} offset={0} duration={500}>
+        <Link to="header" spy={true} smooth={true} offset={0} duration={500}>
           Home
         </Link>
         <Link to="ourOffer" activeClass="none" spy={true} smooth={true} offset={0} duration={500}>
@@ -15,7 +15,7 @@ function SlideNavigation(props) {
         <Link to="price" activeClass="none" spy={true} smooth={true} offset={0} duration={500}>
           Price
         </Link>
-        <Link to="photo" activeClass="none" spy={true} smooth={true} offset={35} duration={500}>
+        <Link to="photo" spy={true} smooth={true} offset={35} duration={500}>
           Photo
         </Link>
         <Link to="gallery" activeClass="none" spy={true} smooth={true} offset={0} duration={500}>
