@@ -3,7 +3,6 @@ import "./navigation.style.css";
 
 // img and icons
 import navImg from "../../../assets/logo.png";
-import { BiCalendarCheck } from "react-icons/bi";
 import { HiMenuAlt2 } from "react-icons/hi";
 
 function Navigation(props) {
@@ -23,10 +22,6 @@ function Navigation(props) {
       <div className="nav--rightSize">
         <h4>napisNam@email.org</h4>
         <div className="calenarAndflag">
-          <button className="nav--button">
-            <BiCalendarCheck className="nav--icons" />
-            <p className="nav--text">Kalendar</p>
-          </button>
           <button className="nav--button">
             <p className="nav--language"> CZ </p>
           </button>

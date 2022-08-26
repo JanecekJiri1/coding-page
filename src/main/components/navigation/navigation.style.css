@@ -59,6 +59,7 @@ nav {
 .nav--language {
   display: flex;
   align-items: center;
+  height: 25px;
   padding: 0 5px;
 }
 

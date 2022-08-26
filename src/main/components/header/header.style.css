@@ -12,6 +12,7 @@ header {
   min-height: 600px;
   height: calc(100vh - 65px);
   color: white;
+  padding-top: 10px;
 }
 
 .insideHeader {
