@@ -1,5 +1,5 @@
 import React from "react";
-import "./sectionFour.style.css";
+import "./sectionFourPhoto.style.css";
 import { AiOutlineWoman } from "react-icons/ai";
 
 import SectionFourCarousel from "./SectionFourCarousel";

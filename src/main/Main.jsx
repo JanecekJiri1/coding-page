@@ -5,8 +5,8 @@ import SlideNavigation from "./components/slideNavigation/SlideNavigation";
 import SectionOne from "./components/sectionsOne/SectionOne";
 import SectionTwo from "./components/sectionTwo/SectionTwo";
 import SectionThree from "./components/sectionThree/SectionThree";
-import SectionFour from "./components/sectionFour/SectionFour";
-import SectionFive from "./components/sectionFive/SectionFive";
+import SectionFourPhoto from "./components/sectionFourPhoto/SectionFourPhoto";
+import SectionFiveGallery from "./components/sectionFiveGallery/SectionFiveGallery";
 import SectionSixForm from "./components/sectionSixForm/SectionSixForm";
 import SectionSevenInsta from "./components/sectionSevenInsta/SectionSevenInsta";
 import SectionEightFooter from "./components/sectionEightFooter/SectionEightFooter";
@@ -19,8 +19,8 @@ function Main(props) {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
-      <SectionFour />
-      <SectionFive />
+      <SectionFourPhoto />
+      <SectionFiveGallery />
       <SectionSixForm />
       <SectionSevenInsta />
       <SectionEightFooter />
