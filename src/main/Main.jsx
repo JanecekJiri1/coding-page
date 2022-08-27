@@ -7,6 +7,7 @@ import SectionTwo from "./components/sectionTwo/SectionTwo";
 import SectionThree from "./components/sectionThree/SectionThree";
 import SectionFourPhoto from "./components/sectionFourPhoto/SectionFourPhoto";
 import SectionFiveGallery from "./components/sectionFiveGallery/SectionFiveGallery";
+import Gallery from "./components/sectionFiveGallery/gallery/Gallery";
 import SectionSixForm from "./components/sectionSixForm/SectionSixForm";
 import SectionSevenInsta from "./components/sectionSevenInsta/SectionSevenInsta";
 import SectionEightFooter from "./components/sectionEightFooter/SectionEightFooter";

@@ -6,6 +6,25 @@
   -moz-column-width: 33%;
   column-width: 33%;
   padding: 5px 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.returnButton--gallery {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  z-index: 101;
+}
+
+@media (max-width: 550px) {
+  .returnButton--gallery {
+    top: 0;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 0);
+
+    z-index: 99;
+  }
 }
 
 .imgGallery .pics {

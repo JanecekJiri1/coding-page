@@ -1,10 +1,11 @@
 import React from "react";
 import "./sectionFiveGallery.style.css";
 import Gallery from "./gallery/Gallery";
+import { Link, Routes, Route } from "react-router-dom";
 
 import SectionFiveCarousel from "./SectionFiveCarousel";
 
-function SectionFour(props) {
+function SectionFiveGallery(props) {
   return (
     <>
       <div className="sectionFive" id="gallery">
@@ -17,11 +18,12 @@ function SectionFour(props) {
         <div className="sectionFive--Carousel">
           <SectionFiveCarousel />
         </div>
-
-        <button className="click-away--button">Více fotografii</button>
+        <Link to="PhotoGallery">
+          <button className="click-away--button">Více fotografii</button>
+        </Link>
       </div>
     </>
   );
 }
 
-export default SectionFour;
+export default SectionFiveGallery;

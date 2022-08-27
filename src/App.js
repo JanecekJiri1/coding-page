@@ -1,7 +1,19 @@
 import Main from "./main/Main";
+import Gallery from "./main/components/sectionFiveGallery/gallery/Gallery";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
-  return <Main />;
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          {/* <Route path="/" /> */}
+          <Route path="/" element={<Main />} />
+          <Route path="/PhotoGallery" element={<Gallery />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
 }
 
 export default App;

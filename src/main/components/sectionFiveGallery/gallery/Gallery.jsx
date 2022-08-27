@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 
 import "./gallery.style.css";
+import { Link } from "react-router-dom";
 import img1 from "../assets/1.jpg";
 
 import img2 from "../assets/2.jpg";
@@ -68,6 +69,9 @@ function Gallery(props) {
 
   return (
     <>
+      <Link to="/">
+        <button className="click-away--button returnButton--gallery">Zpět na hlavní stránku</button>
+      </Link>
       <div className={modal ? "modal open" : "modal"}>
         <img src={tempimgSrc} alt="" />
         <AiOutlineClose onClick={() => setModal(false)} />
