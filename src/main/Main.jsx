@@ -12,6 +12,8 @@ import SectionSixForm from "./components/sectionSixForm/SectionSixForm";
 import SectionSevenInsta from "./components/sectionSevenInsta/SectionSevenInsta";
 import SectionEightFooter from "./components/sectionEightFooter/SectionEightFooter";
 
+import { Routes, Route } from "react-router-dom";
+
 function Main(props) {
   return (
     <>

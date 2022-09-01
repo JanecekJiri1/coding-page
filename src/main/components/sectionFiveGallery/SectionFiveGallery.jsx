@@ -1,7 +1,7 @@
 import React from "react";
 import "./sectionFiveGallery.style.css";
-import Gallery from "./gallery/Gallery";
-import { Link, Routes, Route } from "react-router-dom";
+
+import { Link } from "react-router-dom";
 
 import SectionFiveCarousel from "./SectionFiveCarousel";
 

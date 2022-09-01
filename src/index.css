@@ -34,7 +34,7 @@ html {
   border: 1px solid rgba(0, 0, 0, 0);
   cursor: pointer;
   font-size: 18px;
-  border-radius: 2px;
+  border-radius: 9px;
 }
 
 .black--button {

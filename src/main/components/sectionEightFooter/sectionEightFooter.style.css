@@ -89,12 +89,14 @@ footer {
 .footer--addInformation {
   display: flex;
   justify-content: space-around;
+
   font-weight: normal;
   margin: 45px 0;
   line-height: 1.5;
 }
 .footer--addInformation h5 {
   font-weight: normal;
+  text-align: start;
 }
 
 .footer--addInformation ul {

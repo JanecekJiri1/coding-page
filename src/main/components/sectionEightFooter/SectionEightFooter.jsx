@@ -1,5 +1,7 @@
 import React from "react";
 import "./sectionEightFooter.style.css";
+import FooterAddInformationComp from "./FooterAddInformationComp";
+import { Link } from "react-scroll";
 
 import logo from "../../../assets/logo.png";
 import { FaFacebookF, FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa";
@@ -11,15 +13,25 @@ function SectionEightFooter(props) {
       <h2>
         <footer>
           <div className="footer--top">
-            <div className="social--icon">
-              <FaFacebookF />
-              <FaYoutube />
-              <FaInstagram />
-              <FaLinkedinIn />
+            <div>
+              <a href="https://www.facebook.com/jiri.janecek.712" target="_blank">
+                <FaFacebookF />
+              </a>
+              <a href="https://www.instagram.com/jirka.janecek1/" target="_blank">
+                <FaInstagram />
+              </a>
+              <a href="https://www.linkedin.com/in/jirijanecek01/" target="_blank">
+                <FaLinkedinIn />
+              </a>
+              <a href="https://www.youtube.com/channel/UC4RzynFtynvafmysAaYA9Gw" target="_blank">
+                <FaYoutube />
+              </a>
             </div>
             <img src={logo} alt="main logo" />
             <div className="footer--top--button">
-              <button className="click-away--button">Zobrazit Cenu</button>
+              <Link to="price" activeClass="none" spy={true} smooth={true} offset={0} duration={500}>
+                <button className="click-away--button ">Ceník</button>
+              </Link>
             </div>
           </div>
 
@@ -45,40 +57,7 @@ function SectionEightFooter(props) {
           </div>
 
           <div className="footer--addInformation">
-            <div className="footer--addInformation--column">
-              <h5>Some Name</h5>
-              <ul>
-                <li>asdasd</li>
-                <li>Text text</li>
-                <li>Text text</li>
-              </ul>
-            </div>
-            <div>
-              <h5>Some Name</h5>
-              <ul>
-                <li>asdasd</li>
-                <li>Text text</li>
-                <li>Text text</li>
-              </ul>
-            </div>
-            <div>
-              <h5>Some Name</h5>
-              <ul>
-                <li>asdasd</li>
-                <li>Text text</li>
-                <li>Text text</li>
-                <li>Text text</li>
-              </ul>
-            </div>
-            <div>
-              {" "}
-              <h5>Some Name</h5>
-              <ul>
-                <li>asdasd</li>
-                <li>Text text</li>
-                <li>Text text</li>{" "}
-              </ul>
-            </div>
+            <FooterAddInformationComp />
           </div>
 
           <div className="line">
