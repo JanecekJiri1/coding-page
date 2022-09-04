@@ -4,8 +4,11 @@ import "./navigation.style.css";
 // img and icons
 import navImg from "../../../assets/logo.png";
 import { HiMenuAlt2 } from "react-icons/hi";
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 function Navigation(props) {
+  const { t } = useTranslation();
   return (
     <nav>
       <div className="nav--leftSize">
@@ -22,9 +25,14 @@ function Navigation(props) {
       <div className="nav--rightSize">
         <h4>janec.jiri@email.cz</h4>
         <div className="calenarAndflag">
-          <button className="nav--button">
-            <p className="nav--language"> CZ </p>
-          </button>
+          <span className="nav--language" name="language">
+            <button onClick={() => i18next.changeLanguage("cs")} value="cs">
+              Cesky
+            </button>
+            <button onClick={() => i18next.changeLanguage("en")} value="en">
+              Anglicky
+            </button>
+          </span>
         </div>
       </div>
     </nav>
