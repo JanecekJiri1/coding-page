@@ -4,12 +4,15 @@ import { AiOutlineWoman } from "react-icons/ai";
 
 import SectionFourCarousel from "./SectionFourCarousel";
 
+import { useTranslation } from "react-i18next";
+
 function SectionFour(props) {
+  const { t } = useTranslation();
   return (
     <div className="SectionFour" id="photo">
-      <h2 className="click-away--title ">V čem všem si můžete rozumět</h2>
+      <h2 className="click-away--title ">{t("S4 title")}</h2>
       <AiOutlineWoman className="global--icon" />
-      <p>Lorem ipsum dolor sit amet adipisicing elit.</p>
+      <p>{t("S4 short info")}</p>
       <div className="sectionFour--Carousel">
         <SectionFourCarousel />
       </div>

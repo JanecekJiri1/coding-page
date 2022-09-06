@@ -1,20 +1,20 @@
 import React from "react";
 
+import { useTranslation } from "react-i18next";
+
 function Extra(props) {
+  const { t } = useTranslation();
   return (
     <>
       <div className="sectionThree--box">
         <div className="sectionThree--box--inner">
           <div className="sectionThree--box--front">
             <h3>11§</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>{t("front price c1")}</p>
           </div>
           <div className="sectionThree--box--back">
-            <h3>Doplněk jedna</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore
-              cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse?
-            </p>
+            <h3>{t("back description title c1")}</h3>
+            <p>{t("back description info c1")}</p>
           </div>
         </div>
       </div>
@@ -23,11 +23,11 @@ function Extra(props) {
         <div className="sectionThree--box--inner">
           <div className="sectionThree--box--front">
             <h3>17§</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>{t("front price c2")}</p>
           </div>
           <div className="sectionThree--box--back">
-            <h3>Doplněk 2</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci praesentium rerum</p>
+            <h3>{t("back description title c2")}</h3>
+            <p>{t("back description info c2")}</p>
           </div>
         </div>
       </div>
@@ -35,14 +35,11 @@ function Extra(props) {
         <div className="sectionThree--box--inner">
           <div className="sectionThree--box--front">
             <h3>24§</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>{t("front price c3")}</p>
           </div>
           <div className="sectionThree--box--back">
-            <h3>Doplněk 3</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci praesentium rerum Lorem ipsum dolor sit amet consectetur, adipisicing
-              elit.
-            </p>
+            <h3>{t("back description title c3")}</h3>
+            <p>{t("back description info c3")}</p>
           </div>
         </div>
       </div>
@@ -51,14 +48,11 @@ function Extra(props) {
         <div className="sectionThree--box--inner">
           <div className="sectionThree--box--front">
             <h3>42§</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p>{t("front price c4")}</p>
           </div>
           <div className="sectionThree--box--back">
-            <h3>Všechny dohromady</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci repellendus voluptate nam cupiditate odit nisi at magni, illo neque
-              perferendis minus suscipit quis minima?
-            </p>
+            <h3>{t("back description title c4")}</h3>
+            <p>{t("back description info c4")}</p>
           </div>
         </div>
       </div>

@@ -4,8 +4,11 @@ import { AiOutlineClose } from "react-icons/ai";
 import { useClickOutside } from "../../../hooks/useClickOutside";
 import "./menu.style.css";
 
+import { useTranslation } from "react-i18next";
+
 function Menu(props) {
   const menuRef = useRef(null);
+  const { t } = useTranslation();
 
   useClickOutside(menuRef, () => props.setShowMenu(false));
 
@@ -18,16 +21,16 @@ function Menu(props) {
           <div className="menu--header--icon" onClick={() => props.setShowMenu(false)}>
             <AiOutlineClose className="menu--header--icon--cros" />
 
-            <p> menu</p>
+            <p> MENU</p>
           </div>
         </div>
-        <h3>Další projekty</h3>
+        <h3>{t("next projects")}</h3>
         <div className="menu--body">
           <div className="menu--body--left">
             <div>
               <div className="menu--portfolio">
                 <h4 onClick={() => setMenuItem("portfolio")}>Portfolio</h4>
-                <h4 onClick={() => setMenuItem("wineMenu")}>Vinařství</h4>
+                <h4 onClick={() => setMenuItem("wineMenu")}>{t("wine")}</h4>
                 <h4 onClick={() => setMenuItem("foodMenu")}>Food order</h4>
               </div>
             </div>
@@ -37,14 +40,13 @@ function Menu(props) {
             {menuItem === "portfolio" && (
               <div className="menu--right--show">
                 <a href="https://my-new-portfolio-rebuild.herokuapp.com/" target="_blank">
-                  {" "}
-                  Main page{" "}
+                  {t("main page")}
                 </a>
                 <a href="https://my-new-portfolio-rebuild.herokuapp.com/projects" target="_blank">
-                  Projects
+                  {t("projects")}
                 </a>
                 <a href="https://my-new-portfolio-rebuild.herokuapp.com/contact" target="_blank">
-                  contact
+                  {t("contact")}
                 </a>
               </div>
             )}
@@ -52,16 +54,16 @@ function Menu(props) {
             {menuItem === "wineMenu" && (
               <div className="menu--right--show">
                 <a href="https://wine-vajcner.herokuapp.com/" target="_blank">
-                  <p>Main page</p>
+                  {t("main page")}
                 </a>
                 <a href="https://wine-vajcner.herokuapp.com/Wine" target="_blank">
-                  <p>Our wine</p>
+                  {t("Our wine")}
                 </a>
                 <a href="https://wine-vajcner.herokuapp.com/About" target="_blank">
-                  <p>About us</p>
+                  {t("About us")}
                 </a>
                 <a href="https://wine-vajcner.herokuapp.com/Contact" target="_blank">
-                  <p> contact</p>
+                  {t("contact")}
                 </a>
               </div>
             )}
@@ -69,7 +71,7 @@ function Menu(props) {
             {menuItem === "foodMenu" && (
               <div className="menu--right--show">
                 <a href="https://food-order-portfolio.herokuapp.com/" target="_blank">
-                  <p>Main page</p>
+                  {t("main page")}
                 </a>
               </div>
             )}

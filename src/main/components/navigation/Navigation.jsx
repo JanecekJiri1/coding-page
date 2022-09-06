@@ -27,10 +27,10 @@ function Navigation(props) {
         <div className="calenarAndflag">
           <span className="nav--language" name="language">
             <button onClick={() => i18next.changeLanguage("cs")} value="cs">
-              Cesky
+              {t("language cs")}
             </button>
             <button onClick={() => i18next.changeLanguage("en")} value="en">
-              Anglicky
+              {t("language eng")}
             </button>
           </span>
         </div>

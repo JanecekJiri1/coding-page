@@ -61,6 +61,8 @@ nav {
   align-items: center;
   height: 25px;
   padding: 0 5px;
+  position: fixed;
+  right: 250px;
 }
 
 /* Media responsivity  */

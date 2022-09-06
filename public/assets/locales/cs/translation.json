@@ -1,11 +1,110 @@
 {
-  "*****************************": "unique translate btn etc",
+  "***************************************************************************unique": "unique translate btn etc",
   "btnPrice": "Ceník",
   "btnInfo": "Vice informací",
 
-  "**************************": " header",
+  "*********************************************************************************navigation": "navigation",
+  "language eng": "Anglicky",
+  "language cs": "Česky",
+
+  "*********************************************************************************MENU": "MENU",
+  "next projects": "Další projekty",
+  "wine": "Vinařství",
+
+  "main page": "Hlavní strana",
+  "projects": "Projekty",
+  "contact": "Kontakt",
+  "About us": "O nás",
+  "Our wine": "Naše vína",
+
+  "************************************************************************************header": " header",
   "P1pageName": "Láska je",
   "P2pageName": "kliknutí daleko",
   "h2underName": "Nebo tak nějak",
-  "headerInfo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, iure! Tempore ut ad repudiandae doloribus accusamus perspiciatis omnis debitis repellat?"
+  "headerInfo": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, iure! Tempore ut ad repudiandae doloribus accusamus perspiciatis omnis debitis repellat?",
+
+  "******************************************************************************Offer": " s1 Offer",
+  "s1Name": "Naše nabídka",
+
+  "description": "něco",
+
+  "****************************************************S2 video": " S2 video",
+  "discover": "Objevuj!!",
+  "no regret": "A nikdy nelituj!",
+
+  "****************************************************S3 price": " S3 price",
+  "Current offer": "Aktuální nabídka",
+
+  "basic": "Základní",
+  "Advanced": "Pokročilý",
+  "Accessories": "Doplňky",
+
+  "s3 offer footer": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur minus vero recusandae.",
+
+  "****************************************************S3 basic": " S3 basic",
+  "front price a1": "Lorem ipsum dolor sit amet.",
+  "front price a2": "Lorem ipsum dolor sit amet.",
+  "front price a3": "Lorem ipsum dolor sit amet.",
+  "front price a4": "Lorem ipsum dolor sit amet.",
+  "day": "den",
+
+  "back description title a1": "Základní nejlevnější",
+  "back description info a1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse? cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse? cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse?",
+
+  "back description title a2": "Základní pokročilý",
+  "back description info a2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate.",
+
+  "back description title a3": "Základní středně pokročilý",
+  "back description info a3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi?",
+
+  "back description title a4": "Celodenní procvičování",
+  "back description info a4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Edolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse?",
+
+  "******************************************************************************S3 ADVANCED": " S3 ADVANCED",
+  "front price b1": "Lorem ipsum dolor sit amet.",
+  "front price b2": "Lorem ipsum dolor sit amet.",
+  "front price b3": "Lorem ipsum dolor sit amet.",
+  "front price b4": "Lorem ipsum dolor sit amet.",
+
+  "back description title b1": "Pokročilý",
+  "back description info b1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse? cupiditate dolorum inventore voluptate laborum. Quo, aperiam. ",
+
+  "back description title b2": "Něco mezi",
+  "back description info b2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate.",
+
+  "back description title b3": "Pokročilý z pokročilých",
+  "back description info b3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi?",
+
+  "back description title b4": "Pokročilý na den",
+  "back description info b4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Edolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse?",
+
+  "******************************************************************************S3 Extra": " S3 Extra",
+  "front price c1": "Lorem ipsum dolor sit amet.",
+  "front price c2": "Lorem ipsum dolor sit amet.",
+  "front price c3": "Lorem ipsum dolor sit amet.",
+  "front price c4": "Lorem ipsum dolor sit amet.",
+
+  "back description title c1": "První sada",
+  "back description info c1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse? cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse? cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse?",
+
+  "back description title c2": "Druhá sada",
+  "back description info c2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate.",
+
+  "back description title c3": "Třetí sada",
+  "back description info c3": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi?",
+
+  "back description title c4": "Všechny dohromady",
+  "back description info c4": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quod debitis hic, minima quisquam voluptatibus, sint animi tempore cupiditate dolorum inventore voluptate laborum. Quo, aperiam. Edolorum inventore voluptate laborum. Quo, aperiam. Perspiciatis, nisi? Distinctio, voluptatum esse?",
+
+  "******************************************************************************S4 photo": " S4 photo",
+
+  "S4 title": "V čem všem si můžete rozumět",
+  "S4 short info": "Lorem ipsum dolor sit amet adipisicing elit.",
+
+  "******************************************************************************S5 gallery": " S5 gallery",
+
+  "S5 title": "K nezapomenutí",
+  "S5 info ": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos temporibus porro neque ipsum dicta odio adipisci quibusdam provident illo consequuntur qui unde eius repudiandae laborum quos.",
+
+  "S5 more photo": "Vice fotografii"
 }
