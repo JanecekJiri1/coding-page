@@ -165,7 +165,7 @@
 
 /* Media query */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .sectionSix--bottom--subscribe {
     background-color: black;
     display: flex;
