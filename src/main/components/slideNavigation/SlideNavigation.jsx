@@ -3,9 +3,20 @@ import "./slideNavigation.style.css";
 import { Link } from "react-scroll";
 
 function SlideNavigation(props) {
+  let prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-55px";
+    }
+    prevScrollpos = currentScrollPos;
+  };
+
   return (
     <>
-      <div className="slideNavigation ">
+      <div id="navbar" className="slideNavigation ">
         <Link to="header" spy={true} smooth={true} offset={0} duration={500}>
           Home
         </Link>

@@ -11,9 +11,11 @@
   border: 1px solid rgba(230, 10, 10, 0);
   color: white;
   position: sticky;
-  top: -45px;
-  bottom: 0;
+  top: 0;
+  /* bottom: 0; */
+  transition: 0.5s;
 }
+
 .slideNavigation:hover {
   top: 0;
   transition: 1s;
