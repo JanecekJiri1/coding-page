@@ -16,7 +16,7 @@ function SectionOneOffer(props) {
     <section id="ourOffer">
       <div className="sectionOne">
         <h1 className="click-away--title">{t("s1Name")}</h1>
-        <h1 style={{ border: "3px solid red", position: "fixed", top: "100px" }}>Hello</h1>
+
         <div className="textAndIcons">
           <AiOutlineWoman className="global--icon" />
           <p>

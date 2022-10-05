@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 
 import "./gallery.style.css";
 import { Link } from "react-router-dom";
 import img1 from "../assets/1.jpg";
+import PageNavigationListener from "../../../hooks/PageNavigationListenerTop";
 
 import img2 from "../assets/2.jpg";
 import img3 from "../assets/3.jpg";
@@ -69,6 +70,7 @@ function Gallery(props) {
 
   return (
     <>
+      <PageNavigationListener />
       <Link to="/">
         <button className="click-away--button returnButton--gallery">Zpět na hlavní stránku</button>
       </Link>
@@ -76,7 +78,7 @@ function Gallery(props) {
         <img src={tempimgSrc} alt="" />
         <AiOutlineClose onClick={() => setModal(false)} />
       </div>
-      <div className="imgGallery">
+      <div id="PhotoGallery" className="imgGallery">
         <div>
           {imgData.map((item, index) => {
             return (
