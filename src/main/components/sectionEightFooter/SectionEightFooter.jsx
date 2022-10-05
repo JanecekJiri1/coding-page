@@ -6,8 +6,10 @@ import { Link } from "react-scroll";
 import logo from "../../../assets/logo.png";
 import { FaFacebookF, FaYoutube, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
+import { useTranslation } from "react-i18next";
 
 function SectionEightFooter(props) {
+  const { t } = useTranslation();
   return (
     <div id="footer">
       <h2>
@@ -30,7 +32,7 @@ function SectionEightFooter(props) {
             <img src={logo} alt="main logo" />
             <div className="footer--top--button">
               <Link to="price" activeClass="none" spy={true} smooth={true} offset={0} duration={500}>
-                <button className="click-away--button ">Ceník</button>
+                <button className="click-away--button ">{t("S8 button price")}</button>
               </Link>
             </div>
           </div>
@@ -62,7 +64,7 @@ function SectionEightFooter(props) {
 
           <div className="line">
             <div className="leftLine"></div>
-            <p> Naše další projekty</p>
+            <p> {t("S8 next projects")}</p>
             <div className="rightLine"></div>
           </div>
 
@@ -72,7 +74,7 @@ function SectionEightFooter(props) {
             <h4>Food order</h4>
           </div>
           <div className="footerSign">
-            <p>Vytvořeno 21.08.2022</p>
+            <p>{t("S8 made")} 21.08.2022</p>
             <p>Jiří Janeřek</p>
           </div>
         </footer>

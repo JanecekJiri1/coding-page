@@ -108,5 +108,51 @@
 
   "S5 more photo": "Vice fotografii",
 
-  "******************************************************************************S6 contact": " S6 contact"
+  "******************************************************************************S6 contact": " S6 contact",
+  "S6 contact": "Kontakt",
+  "S6 tel. contact": "Telefonická rezervace",
+  "S6 open": "Otevřeno",
+  "S6 open day": "Po - So",
+  "S6 form name": "Jméno*",
+  "S6 form Surname": "Příjmení*",
+  "S6 form phone": "Telefoní číslo*",
+  "S6 form arrive": "Datum příjezdu*",
+  "S6 form departures": "Datum Odjezdu*",
+  "S6 form quntity": "Počet",
+  "S6 form variant": "Varianta",
+  "S6 form note": "Vaše připomínky",
+
+  "S6 form send": "Odeslat",
+  "S6 send email": "Vložte Vás email",
+  "S6 know first input": "Chcete vědět jako první",
+
+  "******************************************************************************S7 Instagram": " S7 Instagram",
+  "S7 find us at Instagram": "Můžete nás najít na Instagramu",
+  "S7 show Instagram": "Přejít na Instagram",
+
+  "******************************************************************************S8 information footer": " S8 information footer",
+
+  "S8 button price": "Ceník",
+  "S8 next projects": "Naše další projekty",
+  "S8 made": "Tvořeno",
+
+  "section": "Section *******************************",
+
+  "S8 often ask": "Časté dotazy",
+  "S8 hows it work": "Jak to funguje",
+  "S8 conditions": "Podmínky",
+  "S8 cancellation": "Zrušení",
+
+  "S8 contact": "Kontakty",
+  "S8 helpline": "Infolinka",
+  "S8 businessman": "Právnické osoby",
+  "S8 individuals": "Fyzické osoby",
+
+  "S8 about us": "O nás",
+  "S8 start": "Jak to začalo",
+  "S8 who are we": "Kdo jsme",
+
+  "S8 career": "Kariéra",
+  "S8 positions": "Pozice",
+  "S8 volunteering": "Dobrovolnictví"
 }

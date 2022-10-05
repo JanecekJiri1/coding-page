@@ -106,5 +106,48 @@
 
   "S5 more photo": "More photo",
 
-  "******************************************************************************S6 contact": " S6 contact"
+  "******************************************************************************S6 contact": " S6 contact",
+  "S6 contact": "Contact",
+  "S6 tel. contact": "Telephone reservation",
+  "S6 open": "Open",
+  "S6 open day": "Mo - Sa",
+  "S6 form name": "Name",
+  "S6 form Surname": "Surname",
+  "S6 form phone": "Telephon number",
+  "S6 form arrive": "Day of arrive",
+  "S6 form departures": "day of departure",
+  "S6 form quntity": "Quantity",
+  "S6 form variant": "Variant",
+  "S6 form note": "Yout notes",
+
+  "S6 form send": "Send",
+  "S6 send email": "Insert your email",
+  "S6 know first input": "Do you wanna know first",
+
+  "S7 find us at Instagram": "Find us at Instagram",
+  "S7 show Instagram": "Go to Instagram",
+
+  "******************************************************************************S8 information footer": " S8 information footer",
+  "S8 button price": "Price",
+  "S8 next projects": "Next projects",
+  "S8 made": "Made",
+
+  "Section": "Section***************************",
+  "S8 often ask": "Asked Questions",
+  "S8 hows it work": "Hows it works",
+  "S8 conditions": "Conditions",
+  "S8 cancellation": "Cancellation",
+
+  "S8 contact": "Contact",
+  "S8 helpline": "Helpline",
+  "S8 businessman": "Businessman",
+  "S8 individuals": "Individuals",
+
+  "S8 about us": "About us",
+  "S8 start": "Our start",
+  "S8 who are we": "Who are we",
+
+  "S8 career": "Career",
+  "S8 positions": "Positions",
+  "S8 volunteering": "Volunteering"
 }
