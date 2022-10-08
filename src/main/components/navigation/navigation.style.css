@@ -3,6 +3,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 75px;
+  font-size: 20px;
 }
 
 .nav--middleSize img {
@@ -33,36 +34,50 @@ nav {
   cursor: pointer;
 }
 
-.calenarAndflag {
-  display: flex;
-  text-align: center;
-}
-.calenarAndflag button {
-  margin-right: 5px;
+.language {
+  display: inline-block;
+  border-radius: 50px;
+  overflow: hidden;
 }
 
-.nav--button {
+.language--options {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 55px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  transition: all 0.4s ease-out;
+}
+.language--options:hover {
+  width: 200px;
+}
+.language--options path {
+  stroke: white;
 }
 
 .nav--icons {
-  font-size: 28px;
+  font-size: 38px;
   margin: 0 5px;
 }
 
-.nav--text {
-  padding-right: 5px;
-}
-
 .nav--language {
-  display: flex;
-  align-items: center;
-  height: 25px;
+  border-radius: 50px;
   padding: 0 5px;
-  position: fixed;
   right: 250px;
+  display: none;
+}
+.language:hover .nav--language {
+  display: flex;
+}
+.nav--language p {
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.nav--language p:hover {
+  text-decoration: underline;
 }
 
 /* Media responsivity  */

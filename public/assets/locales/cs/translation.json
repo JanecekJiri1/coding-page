@@ -26,7 +26,8 @@
   "******************************************************************************Offer": " s1 Offer",
   "s1Name": "Naše nabídka",
 
-  "description": "něco",
+  "s1 status taken": "nedostupné",
+  "s1 status available": "K mání",
 
   "****************************************************S2 video": " S2 video",
   "discover": "Objevuj!!",

@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./navigation.style.css";
+
+import { GrLanguage } from "react-icons/gr";
 
 // img and icons
 import navImg from "../../../assets/logo.png";
@@ -24,15 +26,19 @@ function Navigation(props) {
       </div>
       <div className="nav--rightSize">
         <h4>janec.jiri@email.cz</h4>
-        <div className="calenarAndflag">
-          <span className="nav--language" name="language">
-            <button onClick={() => i18next.changeLanguage("cs")} value="cs">
-              {t("language cs")}
-            </button>
-            <button onClick={() => i18next.changeLanguage("en")} value="en">
-              {t("language eng")}
-            </button>
-          </span>
+
+        <div className="language">
+          <div className="language--options">
+            <GrLanguage className="nav--icons " />
+            <span className="nav--language" name="language">
+              <p onClick={() => i18next.changeLanguage("cs")} value="cs">
+                {t("language cs")}
+              </p>
+              <p onClick={() => i18next.changeLanguage("en")} value="en">
+                {t("language eng")}
+              </p>
+            </span>
+          </div>
         </div>
       </div>
     </nav>
