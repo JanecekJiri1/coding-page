@@ -43,9 +43,9 @@ nav {
 .language--options {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 55px;
-  width: 55px;
+  justify-content: space-between;
+  height: 45px;
+  width: 45px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 50px;
   transition: all 0.4s ease-out;
@@ -58,19 +58,26 @@ nav {
 }
 
 .nav--icons {
-  font-size: 38px;
-  margin: 0 5px;
+  font-size: 45px;
 }
 
 .nav--language {
   border-radius: 50px;
-  padding: 0 5px;
+  padding: 0 10px 0 0;
   right: 250px;
   display: none;
+}
+.language:hover .nav--icons {
+  margin: 2px 2px;
 }
 .language:hover .nav--language {
   display: flex;
 }
+
+.nav--language .mobileName {
+  display: none;
+}
+
 .nav--language p {
   margin-left: 5px;
   cursor: pointer;
@@ -81,6 +88,28 @@ nav {
 }
 
 /* Media responsivity  */
+@media screen and (max-width: 850px) {
+  .nav--language .screanName {
+    display: none;
+  }
+
+  .nav--language .mobileName {
+    display: flex;
+
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .language--options:hover .nav--icons {
+    display: none;
+    /* padding: 0; */
+  }
+  .language--options:hover {
+    width: 100px;
+  }
+  .language--options:hover .nav--language {
+    margin-left: 5px;
+  }
+}
 @media screen and (max-width: 750px) {
   .nav--leftSize h4,
   .nav--rightSize h4 {
@@ -99,5 +128,9 @@ nav {
 
   .nav--rightSize {
     justify-content: end;
+  }
+
+  .language--options:hover .nav--icons {
+    display: flex;
   }
 }

@@ -7,7 +7,6 @@ import { Link } from "react-scroll";
 import Menu from "../navigation/menu/Menu";
 
 import { useTranslation } from "react-i18next";
-import i18next from "i18next";
 
 function Header(props) {
   const [showMenu, setShowMenu] = useState(false);

@@ -31,10 +31,16 @@ function Navigation(props) {
           <div className="language--options">
             <GrLanguage className="nav--icons " />
             <span className="nav--language" name="language">
-              <p onClick={() => i18next.changeLanguage("cs")} value="cs">
+              <p className="mobileName" onClick={() => i18next.changeLanguage("cs")} value="cs">
+                {t("language mobile cs")}
+              </p>
+              <p className="mobileName" onClick={() => i18next.changeLanguage("en")} value="en">
+                {t("language mobile eng")}
+              </p>
+              <p className="screanName" onClick={() => i18next.changeLanguage("cs")} value="cs">
                 {t("language cs")}
               </p>
-              <p onClick={() => i18next.changeLanguage("en")} value="en">
+              <p className="screanName" onClick={() => i18next.changeLanguage("en")} value="en">
                 {t("language eng")}
               </p>
             </span>

@@ -6,6 +6,8 @@
   "*****************************navigation": "navigation",
   "language eng": "English",
   "language cs": "Czech",
+  "language mobile eng": "ENG",
+  "language mobile cs": "CZ",
 
   "*****************************MENU": "MENU",
   "next projects": "Next Projects",
