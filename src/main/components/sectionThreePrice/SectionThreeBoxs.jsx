@@ -1,5 +1,3 @@
-import React from "react";
-
 import { useState } from "react";
 import "./sectionThreeBoxs.style.css";
 import Basic from "./Basic";
@@ -11,12 +9,28 @@ function SectionThreeBoxs(props) {
   const { t } = useTranslation();
   const [menuItem, setMenuItem] = useState("basic");
 
+  const [tabBtn, setTabBtn] = useState("One");
+
+  // const [isActive, setIsActive] = useState(false);
+
+  // const handleClick = (event) => {
+  //   // 👇️ toggle isActive state on click
+  //   event.currentTarget.classList.toggle("bg-salmon");
+
   return (
     <div>
       <ul className="sectionThree--concept--top">
-        <li onClick={() => setMenuItem("basic")}>{t("basic")}</li>
-        <li onClick={() => setMenuItem("advanced")}>{t("Advanced")}</li>
-        <li onClick={() => setMenuItem("extra")}>{t("Accessories")} </li>
+        <li className={"basic" === menuItem ? "sectionThree-item-active" : ""} onClick={() => setMenuItem("basic") + setMenuItem("basic")}>
+          {t("basic")}
+        </li>
+
+        <li className={"advanced" === menuItem ? "sectionThree-item-active" : ""} onClick={() => setMenuItem("advanced") + setMenuItem("advanced")}>
+          {t("Advanced")}
+        </li>
+
+        <li className={"extra" === menuItem ? "sectionThree-item-active" : ""} onClick={() => setMenuItem("extra") + setMenuItem("extra")}>
+          {t("Accessories")}
+        </li>
       </ul>
 
       <div className="sectionThree--concept--boxs ">

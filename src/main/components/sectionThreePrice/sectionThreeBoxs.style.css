@@ -25,6 +25,12 @@
   background-color: rgb(199, 32, 199);
 }
 
+.sectionThree-item-active {
+  background-color: rgb(199, 32, 199);
+  border: 1px solid black;
+  color: black;
+}
+
 /* ********** BOXS */
 .sectionThree--concept--boxs {
   /* display: none;
