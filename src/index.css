@@ -52,6 +52,28 @@ html {
 }
 
 /* global icons *********** */
+
+.instagram {
+  color: white;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+.facebook {
+  border: 5px solid #3b5998;
+  color: white;
+  background-color: #3b5998;
+}
+
+.linkedin {
+  color: white;
+  background-color: #0e76a8;
+}
+
+.youtube {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
 .global--icon {
   font-size: 30px;
   margin: 25px auto;

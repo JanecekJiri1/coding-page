@@ -24,7 +24,7 @@ function Menu(props) {
             <p> MENU</p>
           </div>
         </div>
-        <h3>{t("next projects")}</h3>
+        <h3 className="nextProjectsH3">{t("next projects")}</h3>
         <div className="menu--body">
           <div className="menu--body--left">
             <div>
@@ -81,16 +81,16 @@ function Menu(props) {
         <div className="menu--footer">
           <div className="menu--footer--social--icons ">
             <a href="https://www.facebook.com/jiri.janecek.712" target="_blank">
-              <FaFacebookF />
+              <FaFacebookF className="facebook" />
             </a>
             <a href="https://www.instagram.com/jirka.janecek1/" target="_blank">
-              <FaInstagram />
+              <FaInstagram className="instagram" />
             </a>
             <a href="https://www.linkedin.com/in/jirijanecek01/" target="_blank">
-              <FaLinkedinIn />
+              <FaLinkedinIn className="linkedin" />
             </a>
             <a href="https://www.youtube.com/channel/UC4RzynFtynvafmysAaYA9Gw" target="_blank">
-              <FaYoutube />
+              <FaYoutube className="youtube" />
             </a>
           </div>
           <div className="menu--footer--contact">
