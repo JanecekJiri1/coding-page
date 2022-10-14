@@ -39,7 +39,7 @@ function Navigation(props) {
               </p>
               <p className="screanName" onClick={() => i18next.changeLanguage("cs")} value="cs">
                 {t("language cs")}
-              </p>
+              </p>{" "}
               <p className="screanName" onClick={() => i18next.changeLanguage("en")} value="en">
                 {t("language eng")}
               </p>
