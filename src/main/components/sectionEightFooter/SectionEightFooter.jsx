@@ -15,7 +15,7 @@ function SectionEightFooter(props) {
       <h2>
         <footer>
           <div className="footer--top">
-            <div>
+            <div className="footer--socialIcons">
               <a href="https://www.facebook.com/jiri.janecek.712" target="_blank">
                 <FaFacebookF />
               </a>

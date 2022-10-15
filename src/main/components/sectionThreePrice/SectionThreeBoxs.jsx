@@ -9,14 +9,6 @@ function SectionThreeBoxs(props) {
   const { t } = useTranslation();
   const [menuItem, setMenuItem] = useState("basic");
 
-  const [tabBtn, setTabBtn] = useState("One");
-
-  // const [isActive, setIsActive] = useState(false);
-
-  // const handleClick = (event) => {
-  //   // 👇️ toggle isActive state on click
-  //   event.currentTarget.classList.toggle("bg-salmon");
-
   return (
     <div>
       <ul className="sectionThree--concept--top">

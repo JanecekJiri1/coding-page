@@ -1,4 +1,15 @@
 .footer--addInformation h5,
 .footer--addInformation ul {
-  min-width: autpo;
+  min-width: auto;
+}
+
+.footer--information--wrapper div {
+  min-width: 150px;
+  margin: 10px;
+}
+
+.footer--information--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
