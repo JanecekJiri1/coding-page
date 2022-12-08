@@ -11,11 +11,12 @@ import Gallery from "./components/sectionFiveGallery/gallery/Gallery";
 import SectionSixForm from "./components/sectionSixForm/SectionSixForm";
 import SectionSevenInsta from "./components/sectionSevenInsta/SectionSevenInsta";
 import SectionEightFooter from "./components/sectionEightFooter/SectionEightFooter";
+import Main from "./components/src/App";
 
 import { Routes, Route } from "react-router-dom";
 import PageNavigationListener from "./hooks/PageNavigationListener";
 
-function Main(props) {
+function MainMain(props) {
   return (
     <>
       {/* <PageNavigationListener /> */}
@@ -29,8 +30,9 @@ function Main(props) {
       <SectionSixForm />
       <SectionSevenInsta />
       <SectionEightFooter />
+      <Main />
     </>
   );
 }
 
-export default Main;
+export default MainMain;

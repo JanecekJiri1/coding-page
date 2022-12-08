@@ -71,8 +71,15 @@ function SectionSixForm(props) {
                 <input type="number" placeholder={t("S6 form quntity")} className=" allInput" />
               </div>
               <div className="sectionSixForm--inputRightDouble--variant">
-                <input type="text" placeholder={t("S6 form variant")} className="allInput" />
-                <IoIosArrowDown className="input--icon" />
+                {/* <input type="text" placeholder={t("S6 form variant")} className="allInput" />
+                 */}
+                <select>
+                  <option value="grapefruit">Grapefruit</option>
+                  <option value="lime">Lime</option>
+                  <option value="coconut">Coconut</option>
+                  <option value="mango">Mango</option>
+                </select>
+                {/* <IoIosArrowDown className="input--icon" /> */}
               </div>
             </div>
             <div className="sectionFour--input">
