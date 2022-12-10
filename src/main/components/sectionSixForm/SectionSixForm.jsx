@@ -106,7 +106,7 @@ function SectionSixForm(props) {
             <p>One</p>
           </span>
           <span className="inputSpan">
-            <input type="checkbox" checked="checked" />
+            <input type="checkbox" />
           </span>
           {/* <span class="checkmark"></span> */}
         </label>
