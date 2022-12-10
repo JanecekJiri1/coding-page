@@ -14,6 +14,7 @@ const MainNotes = ({ activeNote, onUpdateNote }) => {
   return (
     <div className="app-main">
       <div className="app-main-note-edit">
+        {/* <input type="checkbox">Potvrdit</input> */}
         <input
           type="text"
           id="title"
@@ -22,7 +23,12 @@ const MainNotes = ({ activeNote, onUpdateNote }) => {
           onChange={(e) => onEditField("title", e.target.value)}
           autoFocus
         />
-        <textarea id="body" placeholder="Write your note here..." value={activeNote.body} onChange={(e) => onEditField("body", e.target.value)} />
+        <textarea
+          id="body"
+          placeholder="Write your note here..."
+          value={activeNote.body}
+          onChange={(e) => onEditField("body", e.target.value)}
+        />
       </div>
       <div className="app-main-note-preview">
         <h1 className="preview-title">{activeNote.title}</h1>

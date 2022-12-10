@@ -168,6 +168,50 @@
   align-items: center;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+
+  gap: 35px;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+/* default checkbox */
+.container input {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.inputP {
+  width: 75px;
+}
+.inputSpan {
+  width: 50px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: flex;
+  justify-content: center;
+}
+
 /* Media query */
 
 @media screen and (max-width: 1000px) {

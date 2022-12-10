@@ -22,8 +22,12 @@ function SectionSixForm(props) {
     ></iframe>
   );
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
+
   return (
-    <div className="sectionSixForm" id="form">
+    <div className="sectionSixForm" id="form" onSubmit={handleSubmit}>
       <div className="sectionSixForm--text">
         <h2 className="click-away--title">{t("S6 contact")}</h2>
         <div className="sectionSixForm--text--address">
@@ -95,6 +99,45 @@ function SectionSixForm(props) {
             </div>
           </div>
         </div>
+
+        <h1>Custom Checkboxes</h1>
+        <label class="container">
+          <span class="inputP">
+            <p>One</p>
+          </span>
+          <span className="inputSpan">
+            <input type="checkbox" checked="checked" />
+          </span>
+          {/* <span class="checkmark"></span> */}
+        </label>
+        <label class="container">
+          <span class="inputP">
+            <p> Two</p>
+          </span>
+          <span className="inputSpan">
+            <input type="checkbox" />
+          </span>
+          {/* <span class="checkmark"></span> */}
+        </label>
+        <label class="container">
+          <span class="inputP">
+            <p>Three</p>
+          </span>
+          <span className="inputSpan">
+            <input type="checkbox" />
+          </span>
+          {/* <span class="checkmark"></span> */}
+        </label>
+        <label class="container">
+          <span class="inputP">
+            <p> Four</p>
+          </span>
+          <span className="inputSpan">
+            <input type="checkbox" />
+          </span>
+          {/* <span class="checkmark"></span> */}
+        </label>
+
         <div className="sectionSixForm--bottom">
           <textarea name="" id="" cols="30" rows="10" placeholder={t("S6 form note")}></textarea>
           <button className="click-away--button black--button">{t("S6 form send")}</button>
