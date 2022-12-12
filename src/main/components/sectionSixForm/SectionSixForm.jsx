@@ -22,12 +22,16 @@ function SectionSixForm(props) {
     ></iframe>
   );
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  // };
 
   return (
-    <div className="sectionSixForm" id="form" onSubmit={handleSubmit}>
+    <div
+      className="sectionSixForm"
+      id="form"
+      // onSubmit={handleSubmit}
+    >
       <div className="sectionSixForm--text">
         <h2 className="click-away--title">{t("S6 contact")}</h2>
         <div className="sectionSixForm--text--address">
