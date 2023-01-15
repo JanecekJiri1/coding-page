@@ -39,13 +39,13 @@ function Menu(props) {
           <div className="menu--body--right">
             {menuItem === "portfolio" && (
               <div className="menu--right--show">
-                <a href="https://my-new-portfolio-rebuild.herokuapp.com/" target="_blank">
+                <a href="https://my-portfolio-one-zeta-81.vercel.app/" target="_blank">
                   {t("main page")}
                 </a>
-                <a href="https://my-new-portfolio-rebuild.herokuapp.com/projects" target="_blank">
+                <a href="https://my-portfolio-one-zeta-81.vercel.app/projects" target="_blank">
                   {t("projects")}
                 </a>
-                <a href="https://my-new-portfolio-rebuild.herokuapp.com/contact" target="_blank">
+                <a href="https://my-portfolio-one-zeta-81.vercel.app/contact" target="_blank">
                   {t("contact")}
                 </a>
               </div>
@@ -53,16 +53,16 @@ function Menu(props) {
 
             {menuItem === "wineMenu" && (
               <div className="menu--right--show">
-                <a href="https://wine-vajcner.herokuapp.com/" target="_blank">
+                <a href="https://vinarstv-r.vercel.app/" target="_blank">
                   {t("main page")}
                 </a>
-                <a href="https://wine-vajcner.herokuapp.com/Wine" target="_blank">
+                <a href="https://vinarstv-r.vercel.app/Wine" target="_blank">
                   {t("Our wine")}
                 </a>
-                <a href="https://wine-vajcner.herokuapp.com/About" target="_blank">
+                <a href="https://vinarstv-r.vercel.app/About" target="_blank">
                   {t("About us")}
                 </a>
-                <a href="https://wine-vajcner.herokuapp.com/Contact" target="_blank">
+                <a href="https://vinarstv-r.vercel.app/Contact" target="_blank">
                   {t("contact")}
                 </a>
               </div>
@@ -70,7 +70,7 @@ function Menu(props) {
 
             {menuItem === "foodMenu" && (
               <div className="menu--right--show">
-                <a href="https://food-order-portfolio.herokuapp.com/" target="_blank">
+                <a href="https://food-oder.vercel.app/" target="_blank">
                   {t("main page")}
                 </a>
               </div>

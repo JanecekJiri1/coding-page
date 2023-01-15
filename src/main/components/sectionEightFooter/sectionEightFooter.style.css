@@ -114,6 +114,15 @@ footer {
   justify-content: space-around;
   margin: 45px 0 55px;
 }
+
+.footer--nextProject a {
+  color: white;
+  text-decoration: none;
+}
+.footer--nextProject a:hover {
+  text-decoration: underline;
+}
+
 /* signed */
 .footerSign {
   display: flex;

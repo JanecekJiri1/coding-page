@@ -31,7 +31,14 @@ function SectionEightFooter(props) {
             </div>
             <img src={logo} alt="main logo" />
             <div className="footer--top--button">
-              <Link to="price" activeClass="none" spy={true} smooth={true} offset={0} duration={500}>
+              <Link
+                to="price"
+                activeClass="none"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}
+              >
                 <button className="click-away--button ">{t("S8 button price")}</button>
               </Link>
             </div>
@@ -69,9 +76,15 @@ function SectionEightFooter(props) {
           </div>
 
           <div className="footer--nextProject">
-            <h4>Portfolio</h4>
-            <h4>Vinařství</h4>
-            <h4>Food order</h4>
+            <a href="https://my-portfolio-one-zeta-81.vercel.app/" target="_blank">
+              <h4>Portfolio</h4>
+            </a>
+            <a href="https://vinarstv-r.vercel.app/" target="_blank">
+              <h4>Vinařství</h4>
+            </a>
+            <a href="https://food-oder.vercel.app/" target="_blank">
+              <h4>Food order</h4>
+            </a>
           </div>
           <div className="footerSign">
             <p>{t("S8 made")} 21.08.2022</p>

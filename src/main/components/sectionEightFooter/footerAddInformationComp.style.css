@@ -13,3 +13,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.footer--information--wrapper div ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

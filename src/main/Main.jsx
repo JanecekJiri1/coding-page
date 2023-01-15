@@ -11,7 +11,7 @@ import Gallery from "./components/sectionFiveGallery/gallery/Gallery";
 import SectionSixForm from "./components/sectionSixForm/SectionSixForm";
 import SectionSevenInsta from "./components/sectionSevenInsta/SectionSevenInsta";
 import SectionEightFooter from "./components/sectionEightFooter/SectionEightFooter";
-import Main from "./components/src/App";
+// import Main from "./components/src/App";
 
 import { Routes, Route } from "react-router-dom";
 import PageNavigationListener from "./hooks/PageNavigationListener";
@@ -30,7 +30,7 @@ function MainMain(props) {
       <SectionSixForm />
       <SectionSevenInsta />
       <SectionEightFooter />
-      <Main />
+      {/* <Main /> */}
     </>
   );
 }

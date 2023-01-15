@@ -2,3 +2,53 @@
   margin: 55px 0;
   padding: 60px 0;
 }
+
+.sectionSevenInsta article {
+  display: flex;
+  justify-content: space-between;
+  -webkit-column-count: 1;
+  -moz-column-count: 1;
+  column-count: 1;
+  -webkit-column-width: 16%;
+  -moz-column-width: 16%;
+  column-width: 16%;
+  padding: 5px 2px;
+  margin: 35px 0;
+  width: 100%;
+}
+
+.sectionSevenInsta article a img {
+  width: 200px;
+  height: 200px;
+}
+
+@media only screen and (max-width: 1215px) {
+  .sectionSevenInsta article a:nth-child(5) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1015px) {
+  .sectionSevenInsta article a:nth-child(2) {
+    display: none;
+  }
+}
+@media only screen and (max-width: 815px) {
+  .sectionSevenInsta article {
+    display: inline-block;
+
+    flex-wrap: wrap;
+
+    width: auto;
+  }
+  .sectionSevenInsta article a img {
+    width: 275px;
+    margin: 5px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .sectionSevenInsta article a img {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+  }
+}

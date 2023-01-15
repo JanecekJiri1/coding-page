@@ -81,11 +81,11 @@ function SectionSixForm(props) {
               <div className="sectionSixForm--inputRightDouble--variant">
                 {/* <input type="text" placeholder={t("S6 form variant")} className="allInput" />
                  */}
-                <select>
-                  <option value="grapefruit">Grapefruit</option>
-                  <option value="lime">Lime</option>
-                  <option value="coconut">Coconut</option>
-                  <option value="mango">Mango</option>
+                <select className="sectionSixForm--inputRightDouble--variant--select">
+                  <option value="grapefruit">Option Basic</option>
+                  <option value="lime">Option Regular</option>
+                  <option value="coconut">Option Advanced</option>
+                  <option value="mango">Option Expert</option>
                 </select>
                 {/* <IoIosArrowDown className="input--icon" /> */}
               </div>
@@ -103,44 +103,6 @@ function SectionSixForm(props) {
             </div>
           </div>
         </div>
-
-        <h1>Custom Checkboxes</h1>
-        <label class="container">
-          <span class="inputP">
-            <p>One</p>
-          </span>
-          <span className="inputSpan">
-            <input type="checkbox" />
-          </span>
-          {/* <span class="checkmark"></span> */}
-        </label>
-        <label class="container">
-          <span class="inputP">
-            <p> Two</p>
-          </span>
-          <span className="inputSpan">
-            <input type="checkbox" />
-          </span>
-          {/* <span class="checkmark"></span> */}
-        </label>
-        <label class="container">
-          <span class="inputP">
-            <p>Three</p>
-          </span>
-          <span className="inputSpan">
-            <input type="checkbox" />
-          </span>
-          {/* <span class="checkmark"></span> */}
-        </label>
-        <label class="container">
-          <span class="inputP">
-            <p> Four</p>
-          </span>
-          <span className="inputSpan">
-            <input type="checkbox" />
-          </span>
-          {/* <span class="checkmark"></span> */}
-        </label>
 
         <div className="sectionSixForm--bottom">
           <textarea name="" id="" cols="30" rows="10" placeholder={t("S6 form note")}></textarea>
